@@ -1,1 +1,42 @@
+1.swap two number
+ a =int(input())
+ b = int(input())
+ print("Before swapping:")
+ print("a =", a)
+ print("b =", b)
+ temp = a
+ a = b
+ b = temp
+ print("\nAfter swapping:")
+ print("a =", a)
+ print("b =", b)
+
+
+//5
+4
+Before swapping:
+a = 5
+b = 4
+
+After swapping:
+a = 4
+b = 5
+
+
+
+
+
+2.reverse the digit
+  def reverse_digits(number):
+    reversed_number = str(number)[::-1]
+    reversed_number = int(reversed_number)
+    return reversed_number
+number = 12345
+reversed_number = reverse_digits(number)
+print("Original number:", number)
+print("Reversed number:", reversed_number)
+
+
+//Original number: 12345
+Reversed number: 54321
 
